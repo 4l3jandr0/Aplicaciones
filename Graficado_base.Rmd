@@ -15,6 +15,9 @@ base. Hacer enfasis en la utilidad y diversos usos del sistema base.
 Por ejemplo, para incluir la función en una regresión lineal, cambio de simbolos,
 colores, tamaños, 
 
+Falta incluir imágenes que representen los símbolos y colores que pueden ser vistos
+en R, con los argumentos col = y pch = .
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
