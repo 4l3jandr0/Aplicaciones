@@ -5,7 +5,7 @@ grafica_dispersion <- plot(x = vegetacion$BARESOIL, y = vegetacion$R)
 
 # Más especificaciones personalizar la gráfica.
 
-plot(vegetacion$BARESOIL, vegetacion$R,
+plot(x = vegetacion$BARESOIL, y = vegetacion$R,
      xlab = 'Exposición del suelo',
      ylab = 'Riqueza de especies', main = 'Gráfica de dispersión',
      xlim = c(0,45), ylim = c(4,19),
