@@ -1,43 +1,71 @@
 ---
-title: "Graficado base"
-author: "Alejandro Franco"
-date: "30/4/2021"
-output: pdf_document
+title: "Fundamentos para el uso de R/RStudio"
+author: "Alejandro Franco y Luis Carlos Ramos"
+date: "28/Junio - 23/Julio"
+output:
+  pdf_document: default
 ---
-Intrucción 1:
-Crea un script para la clase de hoy y ahí trabaja lo visto
-El graficado puede ser posible con los paquetes base de R y con algunos otros.
-La clase será enfocada a la construcción de gráficas de dispersión, regresión lineal,
-histogramas y barras. Será importante mencionar TODOS los tipos de gráficas que se
-pueden construir con el sistema base.
-Poner un caso de los más complejos en la construcción de gráficas con el sistema
-base. Hacer enfasis en la utilidad y diversos usos del sistema base.
-Por ejemplo, para incluir la función en una regresión lineal, cambio de simbolos,
-colores, tamaños, 
+NOTA: dentro de cada tema se deben incluir los ejercicios extraclase que serán pedidos, además de los que se realicen en las sesiones
 
-Falta incluir imágenes que representen los símbolos y colores que pueden ser vistos
-en R, con los argumentos col = y pch = .
+# R/RStudio
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+R es un lenguaje de programación que tiene como precedente al lenguaje S y actualmente es usado para aprender estadística, enseñarla, hacer proyecciones en mapas, trabajar con imágenes, procesar datos genómicos, manipulando datos, obtener gráficos, estadísticos y simulaciones en una misma aplicación. Se distribuye como un software gratuito y de código abierto, compatible con los sistemas operativos Windows, macOS y Linux. El software para el uso del lenguaje se descarga directamente del CRAN (*Comprehensive R Archive Network*) en *__[esta página web](https://cran.itam.mx/)__*, que mostrará la siguiente ventana, donde debe descargarse el ejecutable de acuerdo al sistema operativo y características del equipo. 
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+![Ventana de la página web que muestra los ejecutables por sistema operativo](D:\Documentos\R_Datos-Proyectos-Asociados\Biocodigo_Cursos\Biocodigo_descarga-R-CRAN.jpg)
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r cars}
-summary(cars)
-```
+Al terminar de ejecutar la instalación y abrir el programa, se mostrará la interfaz gráfica (GUI, *graphical user interface*) de R (Fig. 2), que puede resultar un poco abrumadora si es la primera vez que utilizamos un software de programación. Para hacer más dinámico el manejo del lenguaje, se hace uso de un entorno de programación, o IDE (Integrated Development Environment). En R las tres plataformas gráficas principales utilizadas en el manejo de R son *__[RStudio](https://www.rstudio.com/products/rstudio/)__*, *__[RCommander](https://cran.r-project.org/web/packages/Rcmdr/index.html)__* y *__[RKWard](https://rkward.kde.org/User_Documentation.html)__*.
 
-## Including Plots
+![Consola de R](D:\Documentos\R_Datos-Proyectos-Asociados\Biocodigo_Cursos\Biocodigo_consola-R-normal.jpg)
 
-You can also embed plots, for example:
+# Control de versiones
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+# Tipos de objetos
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+## Caracteres
+
+## Números complejos
+
+## Enteros
+
+## Vectores
+
+## Lógicos
+
+## Matrices
+
+## Listas
+
+## Data frame y arrays
+
+## Factores
+
+## Funciones
+
+## Valores especiales
+
+### Faltantes
+
+### Infinito
+
+## Tiempo (Fechas y horas)
+
+# Paquetes
+
+# Subconjuntos de datos
+
+# Extracción de datos
+
+# dplyr
+
+# Sistemas de graficado
+
+## Graficado base
+
+## ggplot2
+
+# Pruebas estadísticas
+
+# Funciones reciclables
+

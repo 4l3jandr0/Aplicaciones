@@ -1,0 +1,77 @@
+---
+title: "Fundamentos para el uso de R/RStudio - Guía del profesor"
+author: "Alejandro Franco y Luis Carlos Ramos"
+date: "6/6/2021"
+output: pdf_document
+---
+
+# R/RStudio
+
+# Control de versiones
+
+# Tipos de objetos
+
+## Caracteres
+
+## Números complejos
+
+## Enteros
+
+## Vectores
+
+## Lógicos
+
+## Matrices
+
+## Listas
+
+## Data frame y arrays
+
+## Factores
+
+## Funciones
+
+## Valores especiales
+
+### Faltantes
+
+### Infinito
+
+## Tiempo (Fechas y horas)
+
+# Paquetes
+
+# Subconjuntos de datos
+
+# Extracción de datos
+
+# dplyr
+
+# Sistemas de graficado
+
+## Graficado base
+Intrucción 1:
+Crea un script para la clase de hoy y ahí trabaja lo visto
+El graficado puede ser posible con los paquetes base de R y con algunos otros.
+La clase será enfocada a la construcción de gráficas de dispersión, regresión lineal,
+histogramas y barras. Será importante mencionar TODOS los tipos de gráficas que se
+pueden construir con el sistema base.
+Poner un caso de los más complejos en la construcción de gráficas con el sistema
+base. Hacer enfasis en la utilidad y diversos usos del sistema base.
+Por ejemplo, para incluir la función en una regresión lineal, cambio de simbolos,
+colores, tamaños, 
+
+Falta incluir imágenes que representen los símbolos y colores que pueden ser vistos
+en R, con los argumentos col = y pch = .
+
+
+## ggplot2
+
+# Pruebas estadísticas
+
+# Funciones reciclables
+
+# Breviarios
+
+## Scripts
+Documentos que permiten realizar los cambios necesarios al códico con un esfuerzo mínimo.
