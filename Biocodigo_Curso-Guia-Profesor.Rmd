@@ -4,8 +4,22 @@ author: "Alejandro Franco y Luis Carlos Ramos"
 date: "6/6/2021"
 output: pdf_document
 ---
+NOTA: dentro de cada tema se deben incluir los ejercicios extraclase que serán pedidos, además de los que se realicen en las sesiones  
 
 # R/RStudio
+A continuación se incluye un ejemplo de código para incluir imágenes que requieran tamaños más pequeños.
+
+```{r fig.width= 200, fig.height= 50, echo= TRUE}
+
+library(jpeg)
+library(grid)
+
+img <- readJPEG('Biocodigo_descarga-R-CRAN.jpg')
+
+grid.raster(img, name = c('Ventana de la página web que muestra los ejecutables por sistema operativo'))
+
+```
+
 
 # Control de versiones
 
