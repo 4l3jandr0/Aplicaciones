@@ -5,21 +5,37 @@ date: "28/Junio - 23/Julio"
 output:
   pdf_document: default
 ---
-NOTA: dentro de cada tema se deben incluir los ejercicios extraclase que serán pedidos, además de los que se realicen en las sesiones
+
+# Bienvenid@s
+Este documento aborda los temas que serán tratados durante el curso con título *Fundamentos para el uso de R/Rstudio*, de manera que el asistente tenga acceso facilitado a la información esencial. Los detalles de cada tema serán desarrollados durante las sesiones, así como las dudas que surjan de los ejercicios que aquí se proponen.
+
+## Especificaciones
+
+Las letras en **negrita** y _crusiva_ contienen links que podrían ser de interés para su visita, como *__[este](https://www.rstudio.com/resources/cheatsheets/)__*, que contiene archivos de guías rápidas para las aplicaciones más comunes de R y los programas con los que se le asocia.
+
+**ASÍ:** es como se mostrará una indicación importante a seguir, no la pierdas de vista.
 
 # R/RStudio
 
-R es un lenguaje de programación que tiene como precedente al lenguaje S y actualmente es usado para aprender estadística, enseñarla, hacer proyecciones en mapas, trabajar con imágenes, procesar datos genómicos, manipulando datos, obtener gráficos, estadísticos y simulaciones en una misma aplicación. Se distribuye como un software gratuito y de código abierto, compatible con los sistemas operativos Windows, macOS y Linux. El software para el uso del lenguaje se descarga directamente del CRAN (*Comprehensive R Archive Network*) en *__[esta página web](https://cran.itam.mx/)__*, que mostrará la siguiente ventana, donde debe descargarse el ejecutable de acuerdo al sistema operativo y características del equipo. 
+R es un lenguaje de programación que tiene como precedente al lenguaje S y actualmente es usado para aprender estadística, enseñarla, hacer proyecciones en mapas, trabajar con imágenes, procesar datos genómicos, manipulando datos, obtener gráficos, estadísticos y simulaciones en una misma aplicación. Se distribuye como un software gratuito y de código abierto, compatible con los sistemas operativos Windows, macOS y Linux. El software para el uso del lenguaje se descarga directamente del CRAN (*Comprehensive R Archive Network*) en *__[esta página web](https://cran.itam.mx/)__*, que mostrará la siguiente ventana, donde debe descargarse el ejecutable de acuerdo al sistema operativo y características del equipo.  
 
 
-![Ventana de la página web que muestra los ejecutables por sistema operativo](D:\Documentos\R_Datos-Proyectos-Asociados\Biocodigo_Cursos\Biocodigo_descarga-R-CRAN.jpg)
+![Ventana de la página web que muestra los ejecutables por sistema operativo](D:/Documentos/R_Datos-Proyectos-Asociados/Biocodigo_Cursos/Biocodigo_descarga-R-CRAN.jpg)  
 
 
-Al terminar de ejecutar la instalación y abrir el programa, se mostrará la interfaz gráfica (GUI, *graphical user interface*) de R (Fig. 2), que puede resultar un poco abrumadora si es la primera vez que utilizamos un software de programación. Para hacer más dinámico el manejo del lenguaje, se hace uso de un entorno de programación, o IDE (Integrated Development Environment). En R las tres plataformas gráficas principales utilizadas en el manejo de R son *__[RStudio](https://www.rstudio.com/products/rstudio/)__*, *__[RCommander](https://cran.r-project.org/web/packages/Rcmdr/index.html)__* y *__[RKWard](https://rkward.kde.org/User_Documentation.html)__*.
+Al terminar de ejecutar la instalación y abrir el programa, se mostrará la interfaz gráfica (GUI, *graphical user interface*) de R (Fig. 2), que puede resultar un poco abrumadora si es la primera vez que utilizamos un software de programación. Para hacer más dinámico el manejo del lenguaje, se hace uso de un entorno de programación, o IDE (Integrated Development Environment). En R las tres plataformas gráficas principales utilizadas en el manejo de R son *__[RStudio](https://www.rstudio.com/products/rstudio/)__*, *__[RCommander](https://cran.r-project.org/web/packages/Rcmdr/index.html)__* y *__[RKWard](https://rkward.kde.org/User_Documentation.html)__*, sin embargo existen más. El que se utiliza con más frecuencia es RStudio y es el que será usado durante el curso. 
 
-![Consola de R](D:\Documentos\R_Datos-Proyectos-Asociados\Biocodigo_Cursos\Biocodigo_consola-R-normal.jpg)
+__IMPORTANTE__: El orden de ejecución de los programas es importante, primero debe ejecutarse R y después RStudio, para un funcionamiento adecuado.  
+
+![Consola de R](D:/Documentos/R_Datos-Proyectos-Asociados/Biocodigo_Cursos/Biocodigo_consola-R-normal.jpg)  
+Es necesario entender como se compone el espacio de trabajo en RStudio para hacer uso eficiente de las facilidades que provee, la consola, ambiente, editor de código, las utilidades y el menú superior son las partes principales en que se divide RStudio (Fig. 3).  
+
+![Divisiones principales de la ventana de RStudio]("D:/Documentos/R_Datos-Proyectos-Asociados/Biocodigo_Cursos/Biocodigo_RStudio-Ventanas-Consola.png")  
+
 
 # Control de versiones
+Trabajar a través de un *__[sistema de control de versiones](https://www.atlassian.com/es/git/tutorials/what-is-version-control)__* facilita el intercambio y resguardo de información en una plataformal virtual,  como los conocidos Microsoft OneDrive y Google drive, que al mismo tiempo que almacenan tus archivos, te permiten trabajar de manera remota y colaborativa en tiempo real. Para cumplir esa fucnión en R, se usa GIT a través de GitHub.
+
 
 # Tipos de objetos
 
