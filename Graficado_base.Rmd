@@ -53,7 +53,7 @@ Antes de poder usar GitHub como un control de versiones es importante familiariz
 > Realiza el ejercicio que se propone *__[aquí](https://guides.github.com/activities/hello-world/)__* para familiriazarte más rápido con los términos.
 
 
-Para usar GitHub como control de versiones no basta con tener una cuenta, debe crearse un enlace entre la plataforma y el IDE de R *RStudio*. Para ello, es necesario descargar *__[GIT en este enlace](https://git-scm.com/)___*.
+Para usar GitHub como control de versiones no basta con tener una cuenta, debe crearse un enlace entre la plataforma y el IDE de R, *RStudio*. Para ello, es necesario descargar y ejecutar *__[GIT a través de este enlace](https://git-scm.com/)__*. 
 
 
 # Tipos de objetos

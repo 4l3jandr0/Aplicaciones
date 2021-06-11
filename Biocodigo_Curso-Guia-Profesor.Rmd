@@ -4,12 +4,12 @@ author: "Alejandro Franco y Luis Carlos Ramos"
 date: "6/6/2021"
 output: pdf_document
 ---
-*NOTA: dentro de cada tema se deben incluir los ejercicios extraclase que serán pedidos, además de los que se realicen en las sesiones  
-
+1. Dentro de cada tema se deben incluir los ejercicios extraclase que serán pedidos, además de los que se realicen en las sesiones  
+2. Cada sesión debe abordar una función del IDE RStudio, por ejemplo: em el tema de pedir ayuda debemos decir como se navega de una a otra página que hayamos cargado.
 # R/RStudio
 A continuación se incluye un ejemplo de código para incluir imágenes que requieran tamaños más pequeños.
 
-* NOTA: en clase se debe destacar que al abrir RStudio por primera vez o un proyecto nuevo, solo aparecerán **3** ventanas, la **4** se genera al abrir un documento (sript, RMarkdown, etc.)
+3. En clase se debe destacar que al abrir RStudio por primera vez o un proyecto nuevo, solo aparecerán **3** ventanas, la **4ta** se genera al abrir un documento (sript, RMarkdown, etc.)
 
 ```{r fig.width= 200, fig.height= 50, echo= TRUE}
 
@@ -24,7 +24,7 @@ grid.raster(img, name = c('Ventana de la página web que muestra los ejecutables
 
 
 # Control de versiones
-
+1. Debemos pedir que se haga un proyecto y que cada sesión actualicen sus ejercicios, de esa forma se asegura el repaso continuo para hace uso de un control de versiones.
 # Tipos de objetos
 
 ## Caracteres
