@@ -4,10 +4,12 @@ author: "Alejandro Franco y Luis Carlos Ramos"
 date: "6/6/2021"
 output: pdf_document
 ---
-NOTA: dentro de cada tema se deben incluir los ejercicios extraclase que serán pedidos, además de los que se realicen en las sesiones  
+*NOTA: dentro de cada tema se deben incluir los ejercicios extraclase que serán pedidos, además de los que se realicen en las sesiones  
 
 # R/RStudio
 A continuación se incluye un ejemplo de código para incluir imágenes que requieran tamaños más pequeños.
+
+* NOTA: en clase se debe destacar que al abrir RStudio por primera vez o un proyecto nuevo, solo aparecerán **3** ventanas, la **4** se genera al abrir un documento (sript, RMarkdown, etc.)
 
 ```{r fig.width= 200, fig.height= 50, echo= TRUE}
 
