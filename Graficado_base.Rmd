@@ -11,9 +11,11 @@ Este documento aborda los temas que serán tratados durante el curso con título
 
 ## Especificaciones
 
-Las letras en **negrita** y _crusiva_ contienen links que podrían ser de interés para su visita, como *__[este](https://www.rstudio.com/resources/cheatsheets/)__*, que contiene archivos de guías rápidas para las aplicaciones más comunes de R y los programas con los que se le asocia.
+1. Las letras en **negrita** y _crusiva_ contienen links que podrían ser de interés para su visita, como *__[este](https://www.rstudio.com/resources/cheatsheets/)__*, que contiene archivos de guías rápidas para las aplicaciones más comunes de R y los programas con los que se le asocia.
 
-**ASÍ:** es como se mostrará una indicación importante a seguir, no la pierdas de vista.
+2. **IMPORTANTE:** así es como se mostrará una indicación a seguir, no la pierdas de vista.
+
+3. > Un renglón con sangría indica el inicio de un ejercicio extraclase que se propone para reforzar el tema.
 
 # R/RStudio
 
@@ -34,7 +36,24 @@ Es necesario entender como se compone el espacio de trabajo en RStudio para hace
 
 
 # Control de versiones
-Trabajar a través de un *__[sistema de control de versiones](https://www.atlassian.com/es/git/tutorials/what-is-version-control)__* facilita el intercambio y resguardo de información en una plataformal virtual,  como los conocidos Microsoft OneDrive y Google drive, que al mismo tiempo que almacenan tus archivos, te permiten trabajar de manera remota y colaborativa en tiempo real. Para cumplir esa fucnión en R, se usa GIT a través de GitHub.
+Trabajar a través de un *__[sistema de control de versiones](https://www.atlassian.com/es/git/tutorials/what-is-version-control)__* facilita el intercambio y resguardo de información en una plataformal virtual,  como los conocidos Microsoft OneDrive y Google drive, que al mismo tiempo que almacenan tus archivos, te permiten trabajar de manera remota y colaborativa en tiempo real. Para cumplir esa fucnión en R, se usa *__[GitHub](https://github.com/)__*, accede al enlace y crea una cuenta en la plataforma, asegurandote de registrar un correo que sí ocupes, pues será requerido más adelante.
+Antes de poder usar GitHub como un control de versiones es importante familiarizarse con los siguientes términos:
+
+* **Repository:** equivalente a un 'folder/directorio'. Todos los archivos  
+* **Commit:** significa guardar las ediciones y cambios hechos. Git compara la versión anterior de todos los archivos en el 'repo'. Son 'el corazón' de los sistemas de control pues se observan todos los cambios que se han hecho con el tiempo  
+* **Push:** actualizar el repositorio con las ediciones hechas, así es posible tenerlos en línea  
+* **Pull:** actualizar la versión local del archivo para tener la última versión que alguien haya modificado (trabajo colaborativo)  
+* **Staging:** preparar un archivo para 'commit'. Cuando se tienen múltiples archivos modificados de un repositorio, es más eficiente 'stage' cada uno por separado para 'commit' con el comentario de cambio respectivo  
+* **Branch:** cuando un mismo archivo tiene dos copias de forma simultánea. Se crea una 'branch' cuando 'pull' el documento para su edición local  
+* **Merge:** ediciones independientes del mismo archivo que son incorporadas a uno solo y unificado archivo.  
+* **Conflict:** más de una persona realizó un cambió en una misma 'sentencia', eso no puede ser 'merge' automáticamente, de tal forma que se hace manualmente  
+* **Clone:** hacer una copia de un repositorio existente y editarlo personalmente. Es cuando te integras a un equipo de trabajo  
+* **Fork:** copia personal de un repositorio ya existente.  
+
+> Realiza el ejercicio que se propone *__[aquí](https://guides.github.com/activities/hello-world/)__* para familiriazarte más rápido con los términos.
+
+
+Para usar GitHub como control de versiones no basta con tener una cuenta, debe crearse un enlace entre la plataforma y el IDE de R *RStudio*. Para ello, es necesario descargar *__[GIT en este enlace](https://git-scm.com/)___*.
 
 
 # Tipos de objetos
@@ -66,6 +85,14 @@ Trabajar a través de un *__[sistema de control de versiones](https://www.atlass
 ### Infinito
 
 ## Tiempo (Fechas y horas)
+
+# Operaciones
+
+## Aritméticas
+
+## Lógicas
+
+## Relacionales
 
 # Paquetes
 
