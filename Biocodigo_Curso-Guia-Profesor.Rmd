@@ -4,12 +4,14 @@ author: "Alejandro Franco y Luis Carlos Ramos"
 date: "6/6/2021"
 output: pdf_document
 ---
-1. Dentro de cada tema se deben incluir los ejercicios extraclase que serán pedidos, además de los que se realicen en las sesiones  
+1. Dentro de cada tema se deben incluir los ejercicios extraclase que serán pedidos, además de los que se realicen en las sesiones.  
 2. Cada sesión debe abordar una función del IDE RStudio, por ejemplo: em el tema de pedir ayuda debemos decir como se navega de una a otra página que hayamos cargado.
+3. Cada quien se ocupará de los breviarios en las sesiones que no le tocan.
 # R/RStudio
+**ALEX**
 A continuación se incluye un ejemplo de código para incluir imágenes que requieran tamaños más pequeños.
 
-3. En clase se debe destacar que al abrir RStudio por primera vez o un proyecto nuevo, solo aparecerán **3** ventanas, la **4ta** se genera al abrir un documento (sript, RMarkdown, etc.)
+1. En clase se debe destacar que al abrir RStudio por primera vez o un proyecto nuevo, solo aparecerán **3** ventanas, la **4ta** se genera al abrir un documento (sript, RMarkdown, etc.).
 
 ```{r fig.width= 200, fig.height= 50, echo= TRUE}
 
@@ -22,50 +24,55 @@ grid.raster(img, name = c('Ventana de la página web que muestra los ejecutables
 
 ```
 
+### Operadores aritméticos
 
 # Control de versiones
+**ALEX**
 1. Debemos pedir que se haga un proyecto y que cada sesión actualicen sus ejercicios, de esa forma se asegura el repaso continuo para hace uso de un control de versiones.
 # Tipos de objetos
 
 ## Caracteres
-
+**LUIS**
 ## Números complejos
-
+**LUIS**
 ## Enteros
-
+**LUIS**
 ## Vectores
-
+**LUIS**
+Recordar incluir el breviario de extracción de datos tradicional
 ## Lógicos
-
+**ALEX**
 ## Matrices
-
+**LUIS**
 ## Listas
-
+**ALEX**
 ## Data frame y arrays
-
+**LUIS**
 ## Factores
-
+**ALEX**
 ## Funciones
-
+**ALEX**
 ## Valores especiales
-
+**LUIS**
 ### Faltantes
-
+**LUIS**
 ### Infinito
-
+**LUIS**
 ## Tiempo (Fechas y horas)
-
+**LUIS**
 # Paquetes
-
-# Subconjuntos de datos
+**ALEX**
+**# Subconjuntos de datos: es un breviario**
 
 # Extracción de datos
 
 # dplyr
+**LUIS**
 
 # Sistemas de graficado
 
 ## Graficado base
+**LUIS**
 Intrucción 1:
 Crea un script para la clase de hoy y ahí trabaja lo visto
 El graficado puede ser posible con los paquetes base de R y con algunos otros.
@@ -82,11 +89,11 @@ en R, con los argumentos col = y pch = .
 
 
 ## ggplot2
-
+**ALEX**
 # Pruebas estadísticas
-
+**ALEX**
 # Funciones reciclables
-
+**FUNCIONES**
 # Breviarios
 
 ## Scripts
