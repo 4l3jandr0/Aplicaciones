@@ -4,11 +4,14 @@ author: "Alejandro Franco y Luis Carlos Ramos"
 date: "6/6/2021"
 output: pdf_document
 ---
+<<<<<<< HEAD
 
 1. Dentro de cada tema se deben incluir los ejercicios extraclase que serán pedidos, además de los que se realicen en las sesiones.  
 
 ## Si se pudo
 ##Si se pudo por dos
+=======
+
 1. Dentro de cada tema se deben incluir los ejercicios extraclase que serán pedidos, además de los que se realicen en las sesiones  
 
 2. Cada sesión debe abordar una función del IDE RStudio, por ejemplo: em el tema de pedir ayuda debemos decir como se navega de una a otra página que hayamos cargado.
