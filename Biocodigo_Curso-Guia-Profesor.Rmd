@@ -4,13 +4,11 @@ author: "Alejandro Franco y Luis Carlos Ramos"
 date: "6/6/2021"
 output: pdf_document
 ---
-<<<<<<< HEAD
 
 1. Dentro de cada tema se deben incluir los ejercicios extraclase que serán pedidos, además de los que se realicen en las sesiones.  
 
 ## Si se pudo
 ##Si se pudo por dos
-=======
 
 1. Dentro de cada tema se deben incluir los ejercicios extraclase que serán pedidos, además de los que se realicen en las sesiones  
 
