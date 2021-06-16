@@ -64,7 +64,9 @@ Para usar GitHub como control de versiones no basta con tener una cuenta, debe c
 
 ## Vectores
 
-**ALEX BREVIARIO** R cuenta con documentación para resolver muchas de las dudas que puedas tener sobre el uso de una función o paquete, siendo primer aprendiz o alguien con más tiempo de experiencia. La siguiente tabla resume varias formas en las que puedes pedir ayuda.
+### **Breviario: Obtener ayuda** 
+
+R cuenta con documentación para resolver muchas de las dudas que puedas tener sobre el uso de una función o paquete, siendo primer aprendiz o alguien con más tiempo de experiencia. La siguiente tabla resume varias formas en las que puedes pedir ayuda.
 
 ```{r echo=FALSE}
 library(knitr)
@@ -93,6 +95,23 @@ ayuda_tabla <- cbind(ayuda_fun, ayuda_expli)
 ayuda_tabla <- kable(ayuda_tabla, col.names = c('FUNCIONES', 'USO'), align = c('l', 'r'))
 ayuda_tabla
 ```
+> Añadir un ejemplo por cada función para sólo un objeto  
+
+### **Breviario: Extracción tradicional de datos**
+```{r echo=FALSE}
+library(knitr)
+
+op_todos <- c('[ ]', '[ [ ] ]', '$')
+
+op_objetos <- c('Vectores, ', 'Matrices, listas', 'Matrices, data frames')
+
+op_tabla <- cbind(op_todos, op_objetos)
+
+op_tabla <- kable(op_tabla, col.names = c('Operador', 'Objeto'))
+
+op_tabla
+```
+
 
 Obtener ayuda Extracción de datos tradicional
 
@@ -150,4 +169,8 @@ Obtener ayuda Extracción de datos tradicional
 
 ## ggplot2
 
-**ALEX** \# Pruebas estadísticas **ALEX** \# Funciones reciclables
+**ALEX** 
+# Pruebas estadísticas 
+**ALEX** 
+# Funciones reciclables
+**LUIS**
