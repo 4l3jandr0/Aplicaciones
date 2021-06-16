@@ -1,3 +1,13 @@
+#==============================================#
+# Fichero....: codigo_objetos_documento.R      #
+# Creado el..:14jun2021                        #
+# Actualizado:15jun2021                        #
+# Contenido..:El código de los objetos que se  #
+# agregarán a los ocumentos de Markdown        #
+# Autor......:Alejandro Franco Uriostegui      #
+#----------------------------------------------#
+# Código de los objetos para manual de curso   #
+#==============================================#
 
 #Paquetes####
 library(knitr)
