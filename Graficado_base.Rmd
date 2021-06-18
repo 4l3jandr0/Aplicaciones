@@ -97,13 +97,18 @@ ayuda_tabla
 ```
 > Añadir un ejemplo por cada función para sólo un objeto  
 
+
 ### **Breviario: Extracción tradicional de datos**
+
+Saber como es que se extraen elementos de un objeto es de suma importancia para el momento de hacer algún operaciones, análisis y construcción de gráficos. A continuación se presenta una tabla con los operadores tradicionales de extracción.
+
+
 ```{r echo=FALSE}
 library(knitr)
 
 op_todos <- c('[ ]', '[ [ ] ]', '$')
 
-op_objetos <- c('Vectores, ', 'Matrices, listas', 'Matrices, data frames')
+op_objetos <- c('Vectores, ', 'Matrices, data frames y listas', 'Matrices, data frames y listas')
 
 op_tabla <- cbind(op_todos, op_objetos)
 
@@ -112,6 +117,46 @@ op_tabla <- kable(op_tabla, col.names = c('Operador', 'Objeto'))
 op_tabla
 ```
 
+El operador *'[ ]'* e usa comunmente para extraer datos de un vector, las posibilidades son:  
+
+- Obtener un elemento o elementos de los que se conoce su posición
+
+```{r echo = TRUE}
+objeto <- c(9, 1, 6, 5, 8, 2, 6, 4, 8, 3)
+
+extraccion_1 <- objeto [5]
+
+extraccion_1
+
+```
+El resultado se debe a que el número 8 corresponde a la posición 5 dentro del vector.  
+
+- Extraer un conjunto de elementos que correspondan a una serie, ya sea que sean consecutivos o que correspondan a posiciones diferentes
+```{r}
+extraccion_2 <- objeto [7:9]
+
+extraccion_2
+
+```
+Como te imaginarás, los valores '6, 4 y 8' corresponden a las posiciones '7, 8 y 9'. Aunque también se pueden extraer valores que correspondan a posiciones diferentes, usando un vector dentro de los corchetes para indicar las posiciones de los objetos que se desea extraer. Por ejemplo:
+
+```{r}
+extraccion_3 <- objeto[c(1, 3, 8)]
+
+extraccion_3
+
+```
+Se indicaron las posiciones de los objetos dentro del vector, similar a los ejemplos anteriores.
+
+- Un conjunto de valores que responden a una característica de interés
+```{r}
+
+extraccion_4 <- objeto [objeto > 5]
+
+extraccion_4
+
+```
+La instrucción a R fue que nos diera todos los valores que fueran mayores a 5 dentro del vector *objeto*. De tal forma que el resultado es otro vector con esos valores, como se muestra arriba.
 
 Obtener ayuda Extracción de datos tradicional
 
