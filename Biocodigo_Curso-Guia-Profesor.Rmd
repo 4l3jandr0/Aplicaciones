@@ -105,3 +105,4 @@ en R, con los argumentos col = y pch = .
 
 ## Scripts
 Documentos que permiten realizar los cambios necesarios al códico con un esfuerzo mínimo.
+# Nueva prueba para verificar que si funciona como me dijiste ;)
