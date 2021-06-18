@@ -12,6 +12,7 @@
 #Paquetes####
 library(knitr)
 
+
 #Tablas####
 
 #Obtener ayuda####
@@ -38,3 +39,13 @@ ayuda_expli <- c('Ayuda sobre una función',
 ayuda_tabla <- cbind(ayuda_fun, ayuda_expli)
 
 ayuda_tabla <- kable(ayuda_tabla, col.names = c('Funciones', 'Uso'))
+
+#Operadores clasi ####
+
+op_todos <- c('[]', '[[]]', '$')
+
+op_objetos <- c('Vectores, ', 'Matrices, listas', 'Matrices, data frames')
+
+op_tabla <- cbind(op_todos, op_objetos)
+
+op_tabla <- kable(op_tabka, col.names = c('Operador', 'Objeto'))
