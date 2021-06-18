@@ -203,7 +203,11 @@ Obtener ayuda Extracción de datos tradicional
 **ALEX** **\# Subconjuntos de datos: es un breviario**
 
 # Subconjuntos de datos
+
+A ver, este cambio...
+
 Mañana lo hago el cambio
+
 # Extracción de datos
 
 # dplyr
