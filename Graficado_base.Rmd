@@ -100,7 +100,7 @@ ayuda_tabla
 
 ### **Breviario: Extracción tradicional de datos**
 
-Saber como es que se extraen elementos de un objeto es de suma importancia para el momento de hacer algún operaciones, análisis y construcción de gráficos. A continuación se presenta una tabla con los operadores tradicionales de extracción.
+Saber como es que se extraen elementos de un objeto es de suma importancia para el momento de hacer algunas operaciones, análisis y construcción de gráficos. A continuación se presenta una tabla con los operadores tradicionales de extracción.
 
 
 ```{r echo=FALSE}
@@ -146,7 +146,7 @@ extraccion_3 <- objeto[c(1, 3, 8)]
 extraccion_3
 
 ```
-Se indicaron las posiciones de los objetos dentro del vector, similar a los ejemplos anteriores.
+Donde se indicaron las posiciones de los objetos dentro del vector, similar a los ejemplos anteriores.
 
 - Un conjunto de valores que responden a una característica de interés
 ```{r}
@@ -158,6 +158,55 @@ extraccion_4
 ```
 La instrucción a R fue que nos diera todos los valores que fueran mayores a 5 dentro del vector *objeto*. De tal forma que el resultado es otro vector con esos valores, como se muestra arriba.
 
+A continuación se presentan las formas en las que se extraen datos a partir de listas, matrices y data frames. Los breviarios correspondientes serán impartidos en el momento que se aborden dichos objetos.
+
+**IMPORTANTE:** la extracción de datos de un data frame y una matriz son equivalentes, a continuación solo se ejemplificará con un data frame.
+
+Dando continuidad el uso del operador *'[ ]'*, también es usado en matrices y data frames, para un valor particular. Por ejemplo, si se requiere el dato de la columna 2 y la fila 1 del siguiente data frame:
+
+```{r, message=FALSE, echo=FALSE}
+
+library(dplyr)
+library(knitr)
+
+morfometria <- read.csv('Morfometria_ejercicio.csv', header = TRUE)
+
+morfometria <- morfometria %>% 
+        select(wingcrd, tarsus, head, Wt) %>% 
+        slice(1:8)
+
+morfometria <- kable(morfometria, 
+                     col.names = c('wingcrd','tarsus','head','Wt'))
+
+morfometria
+
+```
+
+Lo que debe hacerse usar los valores de las dimensiones, en primer término se usa la posición de la fila seguido de una coma y luego la posición de la columna, así:
+```{r, echo = FALSE}
+morfometria <- read.csv('Morfometria_ejercicio.csv', header = TRUE)
+
+morfometria <- morfometria %>% 
+        select(wingcrd, tarsus, head, Wt) %>% 
+        slice(1:8)
+
+```
+
+
+```{r, echo= TRUE}
+
+morfometria[1, 2]
+
+```
+Siguiendo la misma lógica, si solo se usará una de las columnas, entonces el primer espacio debe quedar vacío y colocarse una coma. De tal modo que para extraer la última columna será así:
+
+```{r, echo = TRUE}
+
+morfometria[,4]
+
+```
+
+  
 Obtener ayuda Extracción de datos tradicional
 
 ## Lógicos

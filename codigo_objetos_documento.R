@@ -11,7 +11,7 @@
 
 #Paquetes####
 library(knitr)
-
+library(dplyr)
 
 #Tablas####
 
@@ -49,3 +49,11 @@ op_objetos <- c('Vectores, ', 'Matrices, listas', 'Matrices, data frames')
 op_tabla <- cbind(op_todos, op_objetos)
 
 op_tabla <- kable(op_tabka, col.names = c('Operador', 'Objeto'))
+
+#Data frame en extracción de datos
+
+morfometria <- read.csv('Morfometria_ejercicio.csv', header = TRUE)
+
+morfometria <- morfometria %>% 
+        select(wingcrd, tarsus, head, Wt) %>% 
+        slice(1:8)
