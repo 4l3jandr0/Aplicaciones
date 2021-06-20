@@ -184,6 +184,7 @@ morfometria
 
 Lo que debe hacerse usar los valores de las dimensiones, en primer término se usa la posición de la fila seguido de una coma y luego la posición de la columna, así:
 ```{r, echo = FALSE}
+
 morfometria <- read.csv('Morfometria_ejercicio.csv', header = TRUE)
 
 morfometria <- morfometria %>% 
@@ -198,16 +199,50 @@ morfometria <- morfometria %>%
 morfometria[1, 2]
 
 ```
-Siguiendo la misma lógica, si solo se usará una de las columnas, entonces el primer espacio debe quedar vacío y colocarse una coma. De tal modo que para extraer la última columna será así:
+Siguiendo la misma lógica, para extraer la o las columnas de una matríz entonces el primer espacio debe quedar vacío y colocarse una coma. De tal modo que para extraer las columnas necesarias será así:
 
 ```{r, echo = TRUE}
 
-morfometria[,4]
+morfometria[,3:4]
 
 ```
 
-  
-Obtener ayuda Extracción de datos tradicional
+El operador *$* funciona para usar o extraer una columna específica de un arreglo bidimensional. Por ejemplo, si la columna que se necesita es la segunda, entonces se pone el nombre del objeto seguido del signo *$* y luego el nombre de la columna que se desea:
+
+```{r}
+
+morfometria$wingcrd
+
+```
+
+Finalmente pero no menos importante, el uso de *[ [ ] ]* se asocia más a listas, que son objetos que albergan distintos tipos de objetos. Para la demostración sobre el uso de este operador se combinaran los objetos de las demostraciones anteriores sobre extracción de datos, de tal forma que nuestra lista será la siguiente:
+
+```{r, echo = FALSE}
+
+lista_extra <- list(Vector = objeto, DataFrame = morfometria)
+
+lista_extra
+
+```
+
+Si lo que necesitas extraer de esa lista sólo es el primer objeto *( Vector )*, entonces debe ponerse como cadena de caracteres dentro de los dos corchetes:
+
+```{r}
+
+lista_extra[['Vector']]
+
+```
+
+La función del doble corchete para una lista puede ir más allá, puedes seleccionar algún elemento anidado en la lista. Es decir, si quisieramos la tercer columna del elemento *( DataFrame )* lo que debe hacerse es lo siguiente:
+
+```{r}
+
+lista_extra[[c(2, 3)]]
+
+```
+
+Lo que se hizo fue indicar con un vector la posición del elemento de la lista y el lugar de la columna que en este caso se requería. Como lo habrás notado el ejemplo resultó en la columna *head* de nuestro arreglo bidimensional.
+
 
 ## Lógicos
 

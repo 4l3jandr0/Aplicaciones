@@ -38,6 +38,9 @@ grid.raster(img, name = c('Ventana de la página web que muestra los ejecutables
 1. Debemos pedir que se haga un proyecto y que cada sesión actualicen sus ejercicios, de esa forma se asegura el repaso continuo para hace uso de un control de versiones.
 # Tipos de objetos
 
+1. Cada objeto debe contener un ejercicio extraclase
+2. Los ejercicios serán usados para los ejercicios de extracción de datos, de tal forma que haya continuidad en lo que se realiza y no quede aislado
+
 ## Caracteres
 **LUIS**
 ## Números complejos
@@ -46,6 +49,9 @@ grid.raster(img, name = c('Ventana de la página web que muestra los ejecutables
 **LUIS**
 ## Vectores
 **LUIS**
+### **Breviario: Obtener ayuda**
+1. Para las extracciones es super importante mostrar una aplicación directa en el uso de funciones conocidas como operaciones básicas e introducir nuevas de acuerdo a la conexión con el tema del día.
+
 Recordar incluir el breviario de extracción de datos tradicional
 ## Lógicos
 **ALEX**
