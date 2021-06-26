@@ -31,9 +31,16 @@ Algunos ejemplos de objetos de tipo caracter son los siguientes
 "Caracter <- Hola"
 "Caracter2 <- ABC$"
 "Caracter3  <- Ocho"
-utilizando la funciones previamente mencionadas corroboramos la naturaleza de los objetos
+utilizando las funciones previamente mencionadas corroboramos la naturaleza de los objetos
 "typeof(Caracter)
 "class(Caracer2)"
+```
+
+El siguiente tipo de objeto se trata de los vectores. Estos elementos permiten guardar más de un número, caracter, etc., sin embargo tienen la limitante de que solo pueden guardar un tipo de objeto, es decir, un vector no puede contener caracteres y números a la vez. 
+Para crear vectores es necesario hacer llamado a la función "c()". A continuación se muestran algunos ejemplos de vectores. 
+```{r}
+vector_de_tipo_caracter <- c("Biocodigo")
+vector_numérico <- c,
 ```
 
 
