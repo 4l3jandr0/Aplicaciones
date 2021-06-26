@@ -1,0 +1,15 @@
+---
+title: "Proyectos y scripts"
+author: "Luis"
+date: "26/6/2021"
+output: pdf_document
+---
+
+**Proyectos
+R studio tiene diferentes formas para trabajar. Podemos hacer uso exclusivo de la consola, sin embargo, tiene la limitante de que solo nos permite guardar aquellos objetos que guardemos previamente, y mientras más o objetos guardemos, nuestro ambiente se llenará, dificultando localizar aquellas funciones, vectores, listas, etc. 
+NOTA Insertar imagen de un ambiente lleno
+Es por ello que la mejor forma de trabajar en R estudio es mediante la elaboració de proyectos. 
+Estos se realizan haciendo clic en el panel superior derecho, justo dónde indica la imágen. Nos abrira la siguiente pestaña y solo tendremos que indicarle que guarde el proyecto en una carpeta específica de nuestro ordendor. 
+Pero ¿Cómo funcionan los proyectos en R? 
+Básicamente los proyectos en R funcionan como crear una nueva carpeta en nuestro ordenador, de tal manera que al crear un nuevo proyecto en R obtenemos un nuevo ambiente de trabajo, es decir un lugar dónde no existe ningún objeto guardo, listo para que comiences a programar y explotar al máximo R Studio. Sin embargo, comparte la misma limitante de trabajar exclusivamente con la consola, de tal forma que no podremos compartir nuestro codigo de programación con alguien más.
+Para resolver esta problemática, R Studio te permite crear "Scripts", los cuales son una herramienta que nos permite escribir y guardar nuestro proceso, como si estuvieramos anotando en una libreta, además de que nos permite trabajar al igual que en la consola, es decir que podemos escribir nuestro codigo de programación en un Script y correrlo, creando nuestras funciones, guardando nuestros objetos, etc. Con la ventaja de que cada vez que lo necesitemos, podemos consultarlo las veces que lo queramos. 
