@@ -1,0 +1,39 @@
+---
+title: "Caracteres, vectores, números, etc"
+author: "Luis"
+date: "26/6/2021"
+output: pdf_document
+---
+Dentro de R podemos encontrar diferentes tipos de objetos 
+En esta sesión revisaremos los objetos de tipo caracter, números, vectores.
+
+En R cualquier objeto debe ser guardado utilizando cualquiera de los siguientes comando
+
+<- objeto
+= objeto
+objeto ->
+
+Prosiguiendo con el tema, en R los número se consideran como un objeto de tipo númerico y puede ser cualquier número entrero 1, 2, 15, 88, 1256698, etc. De tal forma que para guardar cualquier número y poder acceder a el para realizar X función tenemos que realizar lo siguiente
+
+```{r}
+"número_5 <- 5"
+```
+
+
+```{r}
+Para corroborar la naturaleza de nuestro objeto, existen dos funciones para ello, la función typeof() y la función class(). De tal forma que para conocer la naturaleza de nuestro objeto debemos escribir el siguiente codigo
+"typeof(número_5)"
+```
+
+A diferencia de los números, los objetos de tipo caracter en R son cualquier letra o simbolo. Debes de tener cuidado con estos últimos, ya que algunos de ellos también son comandos para realizar ciertas funciones. 
+Algunos ejemplos de objetos de tipo caracter son los siguientes
+```{r}
+"Caracter <- Hola"
+"Caracter2 <- ABC$"
+"Caracter3  <- Ocho"
+utilizando la funciones previamente mencionadas corroboramos la naturaleza de los objetos
+"typeof(Caracter)
+"class(Caracer2)"
+```
+
+
