@@ -13,8 +13,6 @@
 library(knitr)
 library(dplyr)
 
-#Tablas####
-
 #Obtener ayuda####
 ayuda_fun <- c('help () o ?', 
                'help.search()',
