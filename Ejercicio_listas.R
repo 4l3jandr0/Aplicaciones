@@ -17,3 +17,10 @@ str(chi_test)
 chi_test[['observed']][2]
 
 chi_test$p.value
+
+prueba_importar <- file('Yermo.csv')
+
+prueba_importar <- read.csv(prueba_importar, 
+                            col.names = c('Mes', 
+                                       'Temperatura', 
+                                       'Precipitacion'))
