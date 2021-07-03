@@ -62,6 +62,69 @@ Recordar incluir el breviario de extracción de datos tradicional
 ## Data frame y arrays
 **LUIS**
 ## Factores
+Intentar hacer el ejercicio con la base de datos de AVES!!  
+Incluir las funciones para categorías ordenadas y otras para hacer factores.  
+Libros de consulta para el tema:  
+- Libro_Introductory-Statistics-R_Dalgaard  
+- Libro_R-principiantes  
+- Libro_Advanced-R-Data-Programming  
+- Libro_Biostatistics-R-Introduction  
+- Libro_Handbook-Statistical-Analyses  
+- Libro_Program-R-Herramienta-Investigacion  
+Los factores son un tipo de vector especial, que se ocupa especialmente para almacenar valores cualitativos (categorías) que pueden ser o no ordenados. La principal diferencia con los vectores es que ocupan menos espacio en memoria, mientras que el vector almacena todas las cadenas de caractéres, el factor asigna un valor numérico por cada categoría y es así como los almacena. Son muy utilizados para algunos análisis en los que deben diferenciarce los valores categóricos.
+
+La forma más sencilla e intuitiva de trabajar con factores se ejemplifica a continuación:
+```{r, echo= FALSE}
+vector_ants <- c('formicinae', 
+                 'ponerinae', 
+                 'dolichoderinae', 
+                 'formicinae', 
+                 'formicinae', 
+                 'formicinae', 
+                 'myrmicinae', 
+                 'dolichoderinae', 
+                 'dolichoderinae', 
+                 'formicinae', 
+                 'formicinae', 
+                 'formicinae', 
+                 'dolichoderinae', 
+                 'myrmicinae', 
+                 'myrmicinae', 
+                 'formicinae', 
+                 'formicinae', 
+                 'formicinae', 
+                 'formicinae', 
+                 'dolichoderinae', 
+                 'myrmicinae', 
+                 'ponerinae', 
+                 'myrmicinae', 
+                 'formicinae', 
+                 'myrmicinae', 
+                 'myrmicinae', 
+                 'myrmicinae', 
+                 'myrmicinae', 
+                 'myrmicinae', 
+                 'formicinae', 
+                 'myrmicinae', 
+                 'dolichoderinae', 
+                 'formicinae', 
+                 'dolichoderinae', 
+                 'formicinae', 
+                 'formicinae', 
+                 'formicinae', 
+                 'myrmicinae', 
+                 'myrmicinae', 
+                 'myrmicinae', 
+                 'dolichoderinae')
+
+prueba_factor <- as.factor(vector_ants)
+
+prueba_factor
+
+table(prueba_factor)
+```
+
+
 **ALEX**
 ## Funciones
 **ALEX**
