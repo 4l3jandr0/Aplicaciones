@@ -71,7 +71,7 @@ Libros de consulta para el tema:
 - Libro_Biostatistics-R-Introduction  
 - Libro_Handbook-Statistical-Analyses  
 - Libro_Program-R-Herramienta-Investigacion  
-Los factores son un tipo de vector especial, que se ocupa especialmente para almacenar valores cualitativos (categorías) que pueden ser o no ordenados. La principal diferencia con los vectores es que ocupan menos espacio en memoria, mientras que el vector almacena todas las cadenas de caractéres, el factor asigna un valor numérico por cada categoría y es así como los almacena. Son muy utilizados para algunos análisis en los que deben diferenciarce los valores categóricos.
+Los factores son un tipo de vector especial, que se ocupa especialmente para almacenar valores cualitativos (categorías) que pueden ser o no ordenados. La principal diferencia con los vectores de caractéres es que ocupan menos espacio en memoria, mientras que el vector almacena todas las cadenas de caractéres, el factor asigna un valor numérico por cada categoría y es así como los almacena. Son muy utilizados para algunos análisis en los que deben diferenciarce los valores categóricos.
 
 La forma más sencilla e intuitiva de trabajar con factores se ejemplifica a continuación:
 ```{r, echo= FALSE}
